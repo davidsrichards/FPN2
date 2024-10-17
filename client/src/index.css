@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-optical-sizing: auto;
+}
+
+#root {
+  @apply w-full;
+}
+
+* {
+  @apply transition-all duration-300 ease-in-out;
+  scrollbar-width: none;
+}
+
+.dim {
+  @apply bg-gray-300;
+  z-index: 1;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  word-break: normal;
+  tab-size: 4;
+}
